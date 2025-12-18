@@ -39,13 +39,11 @@ This is a **single-tool project (Python only)**
 
 ## 📁 Project Structure
 
-telco-customer-churn-python/
 - [1_data_cleaning_and_prep.ipynb](1_data_cleaning_and_prep.ipynb)
 - [2_financial_risk_analysis.ipynb](2_analysis_financial_risk.ipynb)
 - [3_operational_failure_analysis.ipynb](3_analysis_operational_failure.ipynb)
 - [4_retention_opportunity_analysis.ipynb](4_analysis_retention_targets.ipynb)
 
- data/
 - [cleaned_telco_data.csv](cleaned_telco_data.csv)
 
 images/
@@ -100,3 +98,4 @@ images/
 ## 🏁 Conclusion
 
 This project demonstrates a complete Python-based data analysis workflow, transforming raw customer data into clear insights on churn risk, operational issues, and retention opportunities to support data-driven business decisions.
+
