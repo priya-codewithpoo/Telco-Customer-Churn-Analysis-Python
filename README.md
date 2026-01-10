@@ -1,5 +1,10 @@
 # 📊 Telco Customer Churn Analysis — Python Project
 
+## 💡 Project Summary
+This Python project analyzes Telco customer churn using Pandas and visualizations. It identifies high-risk customers, operational failures, and retention opportunities to guide data-driven business decisions.
+
+---
+
 ## 🔍 Project Overview
 
 This is a **Python-based data analysis project** focused on understanding customer churn in a telecommunications company.
@@ -98,4 +103,5 @@ images/
 ## 🏁 Conclusion
 
 This project demonstrates a complete Python-based data analysis workflow, transforming raw customer data into clear insights on churn risk, operational issues, and retention opportunities to support data-driven business decisions.
+
 
