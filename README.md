@@ -1,14 +1,14 @@
 # 📊 Telco Customer Churn Analysis — Python Project
 
 ## 💡 Project Summary
-This Python project analyzes Telco customer churn using Pandas and visualizations. It identifies high-risk customers, operational failures, and retention opportunities to guide data-driven business decisions.
+
+This project demonstrates hands-on Python analytics to analyze telecom customer churn. It identifies high-risk customers, operational challenges, and retention opportunities, providing actionable business insights.
 
 ---
 
 ## 🔍 Project Overview
 
-This is a **Python-based data analysis project** focused on understanding customer churn in a telecommunications company.
-The project demonstrates how Python is used by data analysts for **data cleaning, exploratory data analysis (EDA), visualization, and business insight generation**.
+This is a Python-based project focused on analyzing customer churn in a telecom company. It demonstrates data cleaning, exploratory data analysis (EDA), visualization, and business insight generation using Python, Pandas, NumPy, Matplotlib, and Seaborn.
 
 This is a **single-tool project (Python only)** 
 
@@ -16,21 +16,17 @@ This is a **single-tool project (Python only)**
 
 ## 🎯 Business Questions Answered
 
-### 1️⃣ Financial Risk
+### Financial Risk
 
-**Question:** Which customers pose the highest immediate revenue risk if they churn?
-**Focus:** Tenure, MonthlyCharges, TotalCharges
+Identify customers with highest immediate revenue risk (Tenure, MonthlyCharges, TotalCharges)
 
-### 2️⃣ Operational Failure
+### Operational Failure
 
-**Question:** Which services, contracts, or technical dependencies are causing the most churn?
-**Focus:** Contract type, InternetService, TechSupport
+Detect services or contract types causing highest churn (Contract type, InternetService, TechSupport)
 
-### 3️⃣ Retention Opportunity
+### Retention Opportunity
 
-**Question:** Which customer groups should be targeted to improve long-term retention?
-**Focus:** Demographics and service combinations
-
+Highlight customer segments to target for long-term retention (Demographics, service combinations)
 ---
 
 ## 🧰 Tools & Libraries Used
@@ -44,14 +40,14 @@ This is a **single-tool project (Python only)**
 
 ## 📁 Project Structure
 
-- [1_data_cleaning_and_prep.ipynb](1_data_cleaning_and_prep.ipynb)
-- [2_financial_risk_analysis.ipynb](2_analysis_financial_risk.ipynb)
-- [3_operational_failure_analysis.ipynb](3_analysis_operational_failure.ipynb)
-- [4_retention_opportunity_analysis.ipynb](4_analysis_retention_targets.ipynb)
+- [1_data_cleaning_and_prep.ipynb](1_data_cleaning_and_prep.ipynb) → Data Cleaning & Preparation
+- [2_financial_risk_analysis.ipynb](2_analysis_financial_risk.ipynb) Financial Risk
+- [3_operational_failure_analysis.ipynb](3_analysis_operational_failure.ipynb) Operational Failure
+- [4_retention_opportunity_analysis.ipynb](4_analysis_retention_targets.ipynb) Retention Opportunities
 
-- [cleaned_telco_data.csv](cleaned_telco_data.csv)
+- [cleaned_telco_data.csv](cleaned_telco_data.csv) → Cleaned dataset for analysis
 
-images/
+images/ → Charts & visualizations
 - financial_risk_*.png
 - operational_failure_*.png
 - retention_opportunity_*.png
@@ -87,9 +83,9 @@ images/
 
 ## 💡 Key Insights
 
-* Customers with high monthly charges and short tenure present the highest churn risk.
-* Month-to-month contracts with Fiber Optic service show the highest churn rates.
-* Long-tenure customers without technical support represent strong retention opportunities.
+* Customers with high monthly charges and short tenure present the highest churn risk
+* Month-to-month contracts with Fiber Optic service have the highest churn
+* Long-tenure customers without technical support are strong retention opportunities
 
 ---
 
@@ -102,6 +98,7 @@ images/
 ---
 ## 🏁 Conclusion
 
-This project demonstrates a complete Python-based data analysis workflow, transforming raw customer data into clear insights on churn risk, operational issues, and retention opportunities to support data-driven business decisions.
+This project demonstrates a complete Python-based data analysis workflow, transforming raw customer data into actionable insights on churn risk, operational issues, and retention opportunities to support data-driven decisions..
+
 
 
