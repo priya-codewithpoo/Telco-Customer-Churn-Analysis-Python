@@ -2,13 +2,13 @@
 
 ## 💡 Project Summary
 
-This project demonstrates hands-on Python analytics to analyze telecom customer churn. It identifies high-risk customers, operational challenges, and retention opportunities, providing actionable business insights.
+This project analyzes telecom customer churn to identify high-risk customers, uncover key drivers of churn, and highlight opportunities for retention. The analysis focuses on transforming customer data into actionable insights that support revenue protection and customer retention strategies.
 
 ---
 
 ## 🔍 Project Overview
 
-This is a Python-based project focused on analyzing customer churn in a telecom company. It demonstrates data cleaning, exploratory data analysis (EDA), visualization, and business insight generation using Python, Pandas, NumPy, Matplotlib, and Seaborn.
+This is a Python-based project focused on analyzing customer churn in a telecom company. Customer churn is driven by a combination of pricing, contract flexibility, and service quality, with specific high-risk segments requiring targeted retention strategies.
 
 This is a **single-tool project (Python only)** 
 
@@ -18,15 +18,15 @@ This is a **single-tool project (Python only)**
 
 ### Financial Risk
 
-Identify customers with highest immediate revenue risk (Tenure, MonthlyCharges, TotalCharges)
+Which customers contribute the highest revenue risk due to churn?
 
 ### Operational Failure
 
-Detect services or contract types causing highest churn (Contract type, InternetService, TechSupport)
+Which services and contract types are associated with the highest churn rates?
 
 ### Retention Opportunity
 
-Highlight customer segments to target for long-term retention (Demographics, service combinations)
+Which customer segments should be targeted to improve long-term retention?
 ---
 
 ## 🧰 Tools & Libraries Used
@@ -56,11 +56,11 @@ images/ → Charts & visualizations
 
 ## 🧹 Data Cleaning & Preparation
 
-* Corrected data types (e.g., `TotalCharges`)
-* Handled missing values
-* Created tenure-based customer segments
-* Exported a cleaned dataset for analysis
-
+* Cleaned and standardized customer data (handled missing values and incorrect data types)
+* Converted key variables (e.g., TotalCharges) for accurate analysis
+*  Created tenure-based customer segments to enable lifecycle analysis
+*  Prepared a clean dataset for consistent and reproducible analysis
+  
 ---
 
 ## 📊 Key Visual Insights
@@ -83,9 +83,10 @@ images/ → Charts & visualizations
 
 ## 💡 Key Insights
 
-* Customers with high monthly charges and short tenure present the highest churn risk
-* Month-to-month contracts with Fiber Optic service have the highest churn
-* Long-tenure customers without technical support are strong retention opportunities
+* dentified that customers with high monthly charges and low tenure have the highest churn risk
+* Found that month-to-month contracts combined with fiber optic services show significantly higher churn rates
+* Discovered that customers without technical support services are more likely to churn
+* Highlighted long-tenure customers as high-value retention opportunities
 
 ---
 
@@ -98,7 +99,7 @@ images/ → Charts & visualizations
 ---
 ## 🏁 Conclusion
 
-This project demonstrates a complete Python-based data analysis workflow, transforming raw customer data into actionable insights on churn risk, operational issues, and retention opportunities to support data-driven decisions..
+This project demonstrates how exploratory data analysis can uncover key drivers of customer churn and support targeted retention strategies. By identifying high-risk segments and operational inefficiencies, the analysis enables data-driven decisions to reduce churn and improve customer lifetime value.
 
 
 
