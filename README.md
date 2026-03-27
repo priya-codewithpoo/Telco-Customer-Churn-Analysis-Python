@@ -97,6 +97,15 @@ images/ → Charts & visualizations
 * Portfolio-ready for data analyst roles
 
 ---
+
+## Business Impact
+
+* Enables targeted retention campaigns for high-risk customers
+* Helps reduce revenue loss from churn
+* Supports data-driven decision-making in customer lifecycle management
+
+---
+
 ## 🏁 Conclusion
 
 This project demonstrates how exploratory data analysis can uncover key drivers of customer churn and support targeted retention strategies. By identifying high-risk segments and operational inefficiencies, the analysis enables data-driven decisions to reduce churn and improve customer lifetime value.
